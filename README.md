@@ -45,7 +45,7 @@ BTS-NET: BI-DIRECTIONAL TRANSFER-AND-SELECTION NETWORK FOR RGB-D SALIENT OBJECT 
 <p align="center">
     <img src="./Img/comparison.png" width="100%"/> <br />
  <em>
-  Quantitative comparison with 16 SOTA over 4 metrics(S-measure max F-measure, max E-measureand MAE scores) on 6 datasets. 
+  Quantitative comparison with 16 SOTA over 4 metrics(S-measure, max F-measure, max E-measure and MAE scores) on 6 datasets. 
   </em>
 </p>
 
