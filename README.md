@@ -15,7 +15,7 @@ Test on Win10 and Ubuntu 16.04
 
 ## 2. Data Preparation
 
- - Download the raw data from [Here](https://pan.baidu.com/s/1fTjhNJydzZpMkdlhwdFkAw [code: 5x0o] and trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg 
+ - Download the raw data from [Here](https://pan.baidu.com/s/1fTjhNJydzZpMkdlhwdFkAw) [code: 5x0o] and trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) 
 [code: 2j99]. Then put them under the following directory:
  
         -dataset\ 
@@ -50,7 +50,7 @@ Test on Win10 and Ubuntu 16.04
 </p>
 
 ### 4.3 Download
- - Test results of the above datasets can be download from [here](https://pan.baidu.com/s/1MGKCsNW8qw40_PJ0RCyAtA [code: xo9p].
+ - Test results of the above datasets can be download from [here](https://pan.baidu.com/s/1MGKCsNW8qw40_PJ0RCyAtA) [code: xo9p].
  
 ## 5. Citation
 
