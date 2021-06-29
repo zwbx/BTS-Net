@@ -43,20 +43,11 @@ Test on Win10 and Ubuntu 16.04
 
 </p>
 <p align="center">
-    <img src="./Img/comparison.png" width="80%"/> <br />
+    <img src="./Img/comparison.png" width="100%"/> <br />
  <em>
   Table 1: Quantitative comparison of models using S-measure max F-measure, max E-measureand MAE scores on 6 datasets. 
   </em>
 </p>
-<!--
-|  Dataset  | NJU2K  | NLPR | STERE |DES    |LFSD  |SSD |SIP|
-|  -------  | -----  |----  |-----  |---    |----  |---  |---|
-| S-measure |.921    |.930  |.908   |.933  | .864  | .882|.879 |
-| F-measure |.920    |.918  |.903   |.927  | .859  | .859|.883 |
-| E-measure |.949    |.961  |.942   |.966  | .901  | .919|.922 |
-| MAE       | .035   |.023  |.041   |.021  | .072  | .044|.055 |
--->
-
 
 ### 4.3 Download
  - Test results of the above datasets can be download from [here](https://pan.baidu.com/s/1MGKCsNW8qw40_PJ0RCyAtA [code: xo9p].
@@ -65,10 +56,10 @@ Test on Win10 and Ubuntu 16.04
 
 Please cite the following paper if you use this repository in your reseach
 
-@inproceedings{Zhang2021BTSNet,
-  title={BTS-Net: Bi-directional Transfer-and-Selection Network For RGB-D Salient Object Detection},
-  author={Wenbo Zhang and Yao Jiang and Keren Fu and Qijun Zhao},
-  booktitle={ICME},
-  year={2021}
-}
+	@inproceedings{Zhang2021BTSNet,
+ 	 title={BTS-Net: Bi-directional Transfer-and-Selection Network For RGB-D Salient Object Detection},
+	  author={Wenbo Zhang and Yao Jiang and Keren Fu and Qijun Zhao},
+	  booktitle={ICME},
+	  year={2021}
+	}
 
