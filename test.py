@@ -27,7 +27,7 @@ if opt.gpu_id=='0':
 #load the model
 model = BTSNet(nInputChannels=3, n_classes=1, os=16,)
 model = torch.nn.DataParallel(model)
-model.load_state_dict(torch.load('./pre_train/epoch_100.pth'))
+model.load_state_dict(torch.load('./pretrain/epoch_100.pth'))
 model.cuda()
 model.eval()
 
