@@ -10,8 +10,8 @@ BTS-NET: BI-DIRECTIONAL TRANSFER-AND-SELECTION NETWORK FOR RGB-D SALIENT OBJECT 
 
 ## 1. Requirements
 
-Python 3.7, Pytorch 1.7, Cuda 10.1
-Test on Win10 and Ubuntu 16.04
+ - Python 3.7, Pytorch 1.7, Cuda 10.1
+ - Test on Win10 and Ubuntu 16.04
 
 ## 2. Data Preparation
 
@@ -45,7 +45,7 @@ Test on Win10 and Ubuntu 16.04
 <p align="center">
     <img src="./Img/comparison.png" width="100%"/> <br />
  <em>
-  Table 1: Quantitative comparison of models using S-measure max F-measure, max E-measureand MAE scores on 6 datasets. 
+  Quantitative comparison with 16 SOTA over 4 metrics(S-measure max F-measure, max E-measureand MAE scores) on 6 datasets. 
   </em>
 </p>
 
