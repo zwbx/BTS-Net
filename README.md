@@ -57,7 +57,7 @@ BTS-NET: BI-DIRECTIONAL TRANSFER-AND-SELECTION NETWORK FOR RGB-D SALIENT OBJECT 
 Please cite the following paper if you use this repository in your reseach
 
 	@inproceedings{Zhang2021BTSNet,
- 	 title={BTS-Net: Bi-directional Transfer-and-Selection Network For RGB-D Salient Object Detection},
+ 	 title={BTS-Net: Bi-directional Transfer-and-Selection Network for RGB-D Salient Object Detection},
 	  author={Wenbo Zhang and Yao Jiang and Keren Fu and Qijun Zhao},
 	  booktitle={ICME},
 	  year={2021}
