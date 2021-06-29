@@ -14,7 +14,7 @@ import time
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=352, help='testing size')
 parser.add_argument('--gpu_id', type=str, default='0', help='select gpu id')
-parser.add_argument('--test_path',type=str,default='E:/pytorch/data/',help='test dataset path')
+parser.add_argument('--test_path',type=str,default='./dataset/',help='test dataset path')
 opt = parser.parse_args()
 
 dataset_path = opt.test_path
