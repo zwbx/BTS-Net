@@ -49,7 +49,7 @@
   </em>
 </p>
 
-### 4.3 Download
+### Download
  - Test results of the above datasets can be download from [here](https://pan.baidu.com/s/19LGDcIpXNF9cdvGnvP_zNA) [code: cujh].
  
 ## 5. Citation
