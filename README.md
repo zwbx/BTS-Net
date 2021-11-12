@@ -37,7 +37,6 @@
     
     You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
     
-- If you need the train code, please send to the email (zhangwenbo@scu.stu.edu.cn). 
 
 ## 4. Results
 
