@@ -12,11 +12,11 @@
  ### Features
  -  First RGB-D SOD methods to introduce bi-directional interactions across RGB and depth during the encoder stage.
  -  Transfer-and-Selection (BTS) module is designed to achieve this idea.
- -  A effective light-weight group decoder is designed to improve efficiency.
+ -  An effective light-weight group decoder is designed to improve efficiency.
  ### Insight for your RGB-D SOD methods
  if you adopt parallel encoders for RGB and depth:
- - Adopt proposed bi-direcitonal interaction stategy to boost your methods (Naive fusion e.g., pixel-wise addition rather than BTS module may also improve). 
- - Based on ablation study of this paper, I strongly recommend not to use D=>R struture, R=>D is consistently better with the same space/time consumption.
+ - In encdoer stage, adopt proposed bi-direcitonal interaction stategy to boost your methods (Naive fusion e.g., pixel-wise addition rather than BTS module may also improve). Based on ablation study of this paper, I strongly recommend not to use D=>R struture, R=>D is consistently better with the same space/time consumption.
+ - In decoder stage, adopt our group decoder to replace naive U-Net like deocder to boost efficiency.
  If you use a depth branch as a complement to RGB branch.
  - refer to our another work [DFM-Net](https://github.com/zwbx/DFM-Net)
 
