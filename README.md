@@ -10,7 +10,7 @@
 
 ## 1. Introduction
  ### Features
- - Achieves a new state-of-the-art on 6 public datasets by the time the paper was accepted ([Leaderboard on paper with code](https://paperswithcode.com/task/rgb-d-salient-object-detection)).
+ - Achieves a new state-of-the-art on 6 public datasets by the time the paper was accepted ([Leaderboard in paper-with-code](https://paperswithcode.com/task/rgb-d-salient-object-detection)).
  - First RGB-D SOD methods to introduce bi-directional interactions across RGB and depth during the encoder stage.
  - Transfer-and-Selection (BTS) module is designed to achieve this idea.
  - An effective light-weight group decoder is designed to improve efficiency.
