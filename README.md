@@ -10,9 +10,10 @@
 
 ## 1. Introduction
  ### Features
- -  First RGB-D SOD methods to introduce bi-directional interactions across RGB and depth during the encoder stage.
- -  Transfer-and-Selection (BTS) module is designed to achieve this idea.
- -  An effective light-weight group decoder is designed to improve efficiency.
+ - Achieves a new state-of-the-art on 6 public datasets by the time the paper was accepted ([Leaderboard on paper with code](https://paperswithcode.com/task/rgb-d-salient-object-detection)).
+ - First RGB-D SOD methods to introduce bi-directional interactions across RGB and depth during the encoder stage.
+ - Transfer-and-Selection (BTS) module is designed to achieve this idea.
+ - An effective light-weight group decoder is designed to improve efficiency.
  ### Easy-to-use to boost your methods
  if you adopt parallel encoders for RGB and depth:
  - In encdoer stage, adopt proposed bi-direcitonal interaction stategy to boost your methods (Naive fusion e.g., pixel-wise addition rather than BTS module may also improve). Based on ablation study of this paper, I strongly recommend not to use D=>R struture, even R=>D is consistently better with the same space/time consumption.
