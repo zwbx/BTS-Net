@@ -17,6 +17,7 @@
  if you adopt parallel encoders for RGB and depth:
  - In encdoer stage, adopt proposed bi-direcitonal interaction stategy to boost your methods (Naive fusion e.g., pixel-wise addition rather than BTS module may also improve). Based on ablation study of this paper, I strongly recommend not to use D=>R struture, R=>D is consistently better with the same space/time consumption.
  - In decoder stage, adopt our group decoder to replace naive U-Net like deocder to boost efficiency.
+ 
  If you use a depth branch as a complement to RGB branch.
  - refer to our another work [DFM-Net](https://github.com/zwbx/DFM-Net)
 
