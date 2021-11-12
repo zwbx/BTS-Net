@@ -8,12 +8,24 @@
     </em>
 </p>
 
-## 1. Requirements
+## 1. Introduction
+ ### Features
+ -  First RGB-D SOD methods to introduce bi-directional interactions across RGB and depth during the encoder stage.
+ -  Transfer-and-Selection (BTS) module is designed to achieve this idea.
+ -  A effective light-weight group decoder is designed to improve efficiency.
+ ### Insight for your RGB-D SOD methods
+ if you adopt parallel encoders for RGB and depth:
+ - Adopt proposed bi-direcitonal interaction stategy to boost your methods (Naive fusion e.g., pixel-wise addition rather than BTS module may also improve). 
+ - Based on ablation study of this paper, I strongly recommend not to use D=>R struture, R=>D is consistently better with the same space/time consumption.
+ If you use a depth branch as a complement to RGB branch.
+ - refer to our another work [DFM-Net](https://github.com/zwbx/DFM-Net)
+
+## 2. Requirements
 
  - Python 3.7, Pytorch 1.7, Cuda 10.1
  - Test on Win10 and Ubuntu 16.04
 
-## 2. Data Preparation
+## 3. Data Preparation
 
  - Download the raw data from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i] and trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) 
 [code: 2j99]. Then put them under the following directory:
@@ -27,7 +39,7 @@
           ...
 
 	  
-## 3. Testing
+## 4. Testing
 
     Directly run test.py
     
@@ -38,7 +50,7 @@
     You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
     
 
-## 4. Results
+## 5. Results
 
 </p>
 <p align="center">
@@ -51,7 +63,7 @@
 ### Download
  - Test results of the above datasets can be download from [here](https://pan.baidu.com/s/19LGDcIpXNF9cdvGnvP_zNA) [code: cujh].
  
-## 5. Citation
+## 6. Citation
 
 Please cite the following paper if you use this repository in your reseach
 
