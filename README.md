@@ -31,6 +31,8 @@
 
  - Download the test data (containing NJU2K, NLPR, STERE, RGBD135, LFSD, SIP) from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) [code: 2j99], training data from [Here](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z].  Then put them under the following directory:
  
+ 
+ 
         -dataset\ 
 	  -RGBD_for_train
           -NJU2K\  
@@ -44,9 +46,7 @@
   
 - Testing
 
-  Directly run test.py
-    
-    The test maps will be saved to './resutls/'.
+  Directly run test.py, the test maps will be saved to './resutls/'.
 
 - Evaluate the result maps:
     
