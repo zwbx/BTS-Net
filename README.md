@@ -29,27 +29,30 @@
 
 ## 3. Data Preparation
 
- - Download the raw data from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i] and trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) 
-[code: 2j99]. Then put them under the following directory:
+ - Download the test data (containing NJU2K, NLPR, STERE, RGBD135, LFSD, SIP) from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) [code: 2j99], training data from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) [code: 2j99].  Then put them under the following directory:
  
         -dataset\ 
+	  -RGBD_for_train
           -NJU2K\  
           -NLPR\
           ...
         -pretrain
           -epoch_100.pth
           ...
-
 	  
-## 4. Testing
-
-    Directly run test.py
+## 4. Testing & Training
+  
+- Testing
+  Directly run test.py
     
     The test maps will be saved to './resutls/'.
 
 - Evaluate the result maps:
     
     You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
+    
+- Training
+  Modilfy setting in options.py and run tarin.py
     
 
 ## 5. Results
