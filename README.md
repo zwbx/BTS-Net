@@ -31,23 +31,13 @@
 
  - Download the test data (containing NJU2K, NLPR, STERE, RGBD135, LFSD, SIP) from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], trained model (epoch_100.pth) from [Here](https://pan.baidu.com/s/1SbNnFmeW5vHj6tFWgQLSpg) [code: 2j99], training data from [Here](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z].  Then put them under the following directory:
  
-    -dataset\
-    -RGBD_for_train\
-	-NJU2K\  
-	-NLPR\
+        -dataset\ 
+          -RGBD_train\  
+          -NJU2K\
+          -NLPR\
 	  ...
-	-pretrain
-	  -epoch_100.pth
-	  ...
-	  
-        -BBS_dataset\ 
-          -RGBD_for_train\  
-          -RGBD_for_test\
-          -test_in_train\
-        -BBSNet
-          -models\
-          -model_pths\
-             -BBSNet.pth
+        -pretrain
+          -epoch_100.pth\
           ...	  
 ## 4. Testing & Training
   
