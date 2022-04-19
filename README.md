@@ -40,7 +40,15 @@
 	  -epoch_100.pth
 	  ...
 	  
-	  
+        -BBS_dataset\ 
+          -RGBD_for_train\  
+          -RGBD_for_test\
+          -test_in_train\
+        -BBSNet
+          -models\
+          -model_pths\
+             -BBSNet.pth
+          ...	  
 ## 4. Testing & Training
   
 - Testing
